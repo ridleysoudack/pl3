@@ -27,20 +27,20 @@
   esriConfig.apiKey = "AAPKdacebc27a6b04ea2b647ad0107359f55h4fwQIey1N-kURE6XM5lfcDcuJfybrwbNlYr5ulARRcqIri7GcksfkVjG7A6I5oZ";
 
   const map = new Map({
-    basemap: "arcgis-topographic"
+    basemap: "arcgis-midcentury"
   });
 
   const view = new MapView({
     container: "viewDiv",
     map: map,
-    center: [-118.80543,34.02700],
-    zoom: 13
+    center: [-102.741971,66.022954],
+    zoom: 3
   });
 
 
 
 // Parks and open spaces (polygons)
-  const parksLayer = new FeatureLayer({
+  const provLayer = new FeatureLayer({
     url: "https://utility.arcgis.com/usrsvcs/servers/a35ea178775549fbb5ed0c7b5cacbb6e/rest/services/biggerbrains61/CanadaRsoudack/MapServer/0"
   });
 
