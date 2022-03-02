@@ -15,8 +15,8 @@ APPCFG = {
 	HEADER_LINK_URL: "https://storymaps.arcgis.com",
 	// Control display of Facebook and Twitter links
 	HEADER_SOCIAL: {
-		facebook: true,
-		twitter: true,
+		facebook: false,
+		twitter: false,
 		bitly: {
 			enable: true,
 			login: "esristorymaps",
@@ -25,7 +25,7 @@ APPCFG = {
 	},
 
 	// Header, Picture Panel and Carousel colors
-	COLORS: ["#444", "#B4B4B4", "#E5E5E5"],
+	COLORS: ["#D80621", "#ffccd3", "#FFFFFF"],
 
 	// Map popup colors
 	POPUP_BACKGROUND_COLOR: "#444444",
@@ -33,9 +33,9 @@ APPCFG = {
 	POPUP_ARROW_COLOR: "#444444",
 
 	// Map popup colors
-	HOVER_POPUP_BACKGROUND_COLOR: "#666666",
-	HOVER_POPUP_BORDER_COLOR: "#666666",
-	HOVER_POPUP_ARROW_COLOR: "#666666",
+	HOVER_POPUP_BACKGROUND_COLOR: "#D80621",
+	HOVER_POPUP_BORDER_COLOR: "#D80621",
+	HOVER_POPUP_ARROW_COLOR: "#D80621",
 
 	// Add a 'zoom on my location' button under the +/home/- buttons
 	// For example this is not supported in IE 8
@@ -76,9 +76,9 @@ APPCFG = {
 	// Enable the use of static icons for map markers
 	// The desktop carousel and mobile UI won't be numbered
 	USE_STATIC_ICON: {
-		enabled: false,
+		enabled: true,
 		// The path can be relative or absolute
-		url: 'resources/markers/StaticIcon1.png',
+		url: 'resources/markers/CanadaMarker.png',
 		// If width and height are defined here, markers won't have hover or selected effect
 		// To keep those effects, comment the following line and the value from ICON_CFG will be used
 		width: 24,
