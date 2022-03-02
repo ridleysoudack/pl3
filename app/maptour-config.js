@@ -8,15 +8,15 @@ APPCFG = {
 	EMBED: false,
 
 	// Header Logo
-	HEADER_LOGO_URL: "resources/icons/esri-logo-white.png",
-	HEADER_LOGO_TARGET: "https://www.esri.com",
+	HEADER_LOGO_URL: "resources/icons/Fleminglogo.png",
+	HEADER_LOGO_TARGET: "https://flemingcollege.ca/",
 	// Header top right link
-	HEADER_LINK_TEXT: "A Story Map",
+	HEADER_LINK_TEXT: "An Esri Story Map",
 	HEADER_LINK_URL: "https://storymaps.arcgis.com",
 	// Control display of Facebook and Twitter links
 	HEADER_SOCIAL: {
-		facebook: true,
-		twitter: true,
+		facebook: false,
+		twitter: false,
 		bitly: {
 			enable: true,
 			login: "esristorymaps",
@@ -25,23 +25,23 @@ APPCFG = {
 	},
 
 	// Header, Picture Panel and Carousel colors
-	COLORS: ["#444", "#B4B4B4", "#E5E5E5"],
+	COLORS: ["#6e010f", "#ffccd3", "#6e010f"],
 
 	// Map popup colors
-	POPUP_BACKGROUND_COLOR: "#444444",
-	POPUP_BORDER_COLOR: "#444444",
-	POPUP_ARROW_COLOR: "#444444",
+	POPUP_BACKGROUND_COLOR: "#7a0413",
+	POPUP_BORDER_COLOR: "#7a0413",
+	POPUP_ARROW_COLOR: "#7a0413",
 
 	// Map popup colors
-	HOVER_POPUP_BACKGROUND_COLOR: "#666666",
-	HOVER_POPUP_BORDER_COLOR: "#666666",
-	HOVER_POPUP_ARROW_COLOR: "#666666",
+	HOVER_POPUP_BACKGROUND_COLOR: "#7a0413",
+	HOVER_POPUP_BORDER_COLOR: "#7a0413",
+	HOVER_POPUP_ARROW_COLOR: "#7a0413",
 
 	// Add a 'zoom on my location' button under the +/home/- buttons
 	// For example this is not supported in IE 8
 	DISPLAY_LOCATE_BUTTON: false,
 
-	MINIMUM_MAP_WIDTH: 450,
+	MINIMUM_MAP_WIDTH: 700, //Default 450
 	TIMEOUT_VIEWER_LOAD: 12000,
 	TIMEOUT_VIEWER_REQUEST: 8000,
 	TIMEOUT_BUILDER_REQUEST: 20000,
@@ -76,13 +76,13 @@ APPCFG = {
 	// Enable the use of static icons for map markers
 	// The desktop carousel and mobile UI won't be numbered
 	USE_STATIC_ICON: {
-		enabled: false,
+		enabled: true,
 		// The path can be relative or absolute
-		url: 'resources/markers/StaticIcon1.png',
+		url: 'resources/markers/CanadaMarker.png',
 		// If width and height are defined here, markers won't have hover or selected effect
 		// To keep those effects, comment the following line and the value from ICON_CFG will be used
 		width: 24,
-		height: 24
+		height: 36
 	},
 	// Ordered list of pin configuration (has to be lower case)
 	PIN_CFG: {
