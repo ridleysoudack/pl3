@@ -8,10 +8,10 @@ APPCFG = {
 	EMBED: false,
 
 	// Header Logo
-	HEADER_LOGO_URL: "resources/icons/esri-logo-white.png",
-	HEADER_LOGO_TARGET: "https://www.esri.com",
+	HEADER_LOGO_URL: "resources/icons/Fleming-Logo.svg",
+	HEADER_LOGO_TARGET: "https://flemingcollege.ca/",
 	// Header top right link
-	HEADER_LINK_TEXT: "A Story Map",
+	HEADER_LINK_TEXT: "An Esri Story Map",
 	HEADER_LINK_URL: "https://storymaps.arcgis.com",
 	// Control display of Facebook and Twitter links
 	HEADER_SOCIAL: {
@@ -81,8 +81,8 @@ APPCFG = {
 		url: 'resources/markers/CanadaMarker.png',
 		// If width and height are defined here, markers won't have hover or selected effect
 		// To keep those effects, comment the following line and the value from ICON_CFG will be used
-		width: 10,
-		height: 24
+		width: 12,
+		height: 36
 	},
 	// Ordered list of pin configuration (has to be lower case)
 	PIN_CFG: {
