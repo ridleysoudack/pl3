@@ -8,7 +8,7 @@ APPCFG = {
 	EMBED: false,
 
 	// Header Logo
-	HEADER_LOGO_URL: "resources/icons/Fleming-Logo.svg",
+	HEADER_LOGO_URL: "resources/icons/Fleminglogo.png",
 	HEADER_LOGO_TARGET: "https://flemingcollege.ca/",
 	// Header top right link
 	HEADER_LINK_TEXT: "An Esri Story Map",
