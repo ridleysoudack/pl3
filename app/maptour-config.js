@@ -25,7 +25,7 @@ APPCFG = {
 	},
 
 	// Header, Picture Panel and Carousel colors
-	COLORS: ["#7a0413", "#ffccd3", "#FFFFFF"],
+	COLORS: ["#6e010f", "#ffccd3", "#6e010f"],
 
 	// Map popup colors
 	POPUP_BACKGROUND_COLOR: "#7a0413",
