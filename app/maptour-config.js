@@ -81,7 +81,7 @@ APPCFG = {
 		url: 'resources/markers/CanadaMarker.png',
 		// If width and height are defined here, markers won't have hover or selected effect
 		// To keep those effects, comment the following line and the value from ICON_CFG will be used
-		width: 18,
+		width: 24,
 		height: 36
 	},
 	// Ordered list of pin configuration (has to be lower case)
