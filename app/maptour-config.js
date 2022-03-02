@@ -25,17 +25,17 @@ APPCFG = {
 	},
 
 	// Header, Picture Panel and Carousel colors
-	COLORS: ["#D80621", "#ffccd3", "#FFFFFF"],
+	COLORS: ["#7a0413", "#ffccd3", "#FFFFFF"],
 
 	// Map popup colors
-	POPUP_BACKGROUND_COLOR: "#444444",
-	POPUP_BORDER_COLOR: "#444444",
-	POPUP_ARROW_COLOR: "#444444",
+	POPUP_BACKGROUND_COLOR: "#7a0413",
+	POPUP_BORDER_COLOR: "#7a0413",
+	POPUP_ARROW_COLOR: "#7a0413",
 
 	// Map popup colors
-	HOVER_POPUP_BACKGROUND_COLOR: "#D80621",
-	HOVER_POPUP_BORDER_COLOR: "#D80621",
-	HOVER_POPUP_ARROW_COLOR: "#D80621",
+	HOVER_POPUP_BACKGROUND_COLOR: "#7a0413",
+	HOVER_POPUP_BORDER_COLOR: "#7a0413",
+	HOVER_POPUP_ARROW_COLOR: "#7a0413",
 
 	// Add a 'zoom on my location' button under the +/home/- buttons
 	// For example this is not supported in IE 8
