@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!--
+			Based on template here:
+			https://github.com/Esri/map-tour-storytelling-template-js
+			This template is released under the Apache License V2.0 by Esri http://www.esri.com/
+
+			A few notes:
+			The map tour template requires a point feature layer, so I created a new layer and hosted it directly on ArcGIS Online.
+			However, my original Luna hosted layer is still referenced in the map, and provides the province polygons.
+			Additionally, because of the requirement for point data, I unfortunately could not figure out an easy way to resize the map
+			to show the full polygon for each province, as the only available setting is for a zoom level for all points.
+			It seems like there is a way around this if the tour application is built through the App Builder, but I decided I would prefer to get into the code directly.
+		-->
 		<title></title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
@@ -23,12 +35,6 @@
 		<meta property="og:title" content="Story Map Tour"/>
 		<meta property="og:description" content="This story map was created with the Story Map Tour application in ArcGIS Online."/>
 		<meta property="og:image" content="http://www.arcgis.com/apps/MapTour/resources/icons/esri-globe.png"/>
-
-		<!--
-			This template is released under the Apache License V2.0 by Esri http://www.esri.com/
-			Checkout the project repository on GitHub to access source code, latest revision, developer documentation, FAQ and tips
-			https://github.com/Esri/map-tour-storytelling-template-js
-		-->
 
 		<script type="text/javascript">
 			//----------------------------------------------------
@@ -204,8 +210,13 @@
 	<body class="claro">
 		<style>
 			/* CUSTOM CSS RULES */
+			h1.title {
+				size: 36px;
+			}
+			
 			h2.subtitle {
 				color: white;
+				size: 28px;
 			}
 
 			.carousel-item-div {
